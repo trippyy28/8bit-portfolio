@@ -66,6 +66,7 @@ const Portfolio = () => {
                 </a>
               </div>
             ) : null}
+            <p>Just Click The Picture!</p>
           </div>
         </div>
       </div>
