@@ -1,12 +1,12 @@
 import "./App.css";
 import "nes.css/css/nes.min.css";
-import Portfolio from "./Portfolio";
-import Home from "./Home";
-import { Cv } from "./Cv";
-import Header from "./Header";
-import { Contact } from "./Contact";
+import Portfolio from "./pages/Portfolio/Portfolio";
+import Home from "./pages/Home";
+import { Cv } from "./pages/Cv";
+import Header from "./components/Header";
+import { Contact } from "./pages/contact/Contact";
 import { Route, Switch } from "react-router-dom";
-import Footer from "./Footer";
+import Footer from "./components/Footer";
 
 function App() {
   return (

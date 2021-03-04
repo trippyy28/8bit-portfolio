@@ -2,10 +2,6 @@ import React, { useState } from "react";
 import emailjs from "emailjs-com";
 
 const Container = () => {
-  const [name, setName] = useState("");
-  const [email, setEmail] = useState("");
-  const [feedback, setFeedback] = useState("");
-
   function sendEmail(e) {
     e.preventDefault();
 
@@ -45,10 +41,9 @@ const Container = () => {
                   <input
                     type="text"
                     id="name"
+                    name="name"
                     placeholder="your name"
                     className="form-control nes-input"
-                    value={name}
-                    onChange={(e) => setName(e.target.value)}
                   />
                 </div>
               </div>
@@ -60,10 +55,9 @@ const Container = () => {
                   <input
                     type="email"
                     id="email"
+                    name="email"
                     placeholder="your email"
                     className="form-control nes-input"
-                    value={email}
-                    onChange={(e) => setEmail(e.target.value)}
                   />
                 </div>
               </div>
@@ -74,12 +68,11 @@ const Container = () => {
                 <div className="offset-md-2 col-md-8">
                   <textarea
                     rows="5"
+                    name="message"
                     type="message"
                     id="message"
                     placeholder="Please Enter your message!"
                     className="form-control nes-input"
-                    value={feedback}
-                    onChange={(e) => setFeedback(e.target.value)}
                   ></textarea>
                 </div>
               </div>
