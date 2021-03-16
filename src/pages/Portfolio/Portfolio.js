@@ -16,18 +16,18 @@ const Portfolio = () => {
         </div>
         <div className="col-md-12 mb-4">
           <button
-            onClick={(e) => setImg("react")}
+            onClick={(e) => setImg("movie")}
             type="button"
             className="nes-btn"
           >
             Movie-Search
           </button>
           <button
-            onClick={(e) => setImg("js")}
+            onClick={(e) => setImg("dj")}
             type="button"
             className="nes-btn is-warning"
           >
-            Instgram
+            Dj-Filter
           </button>
           <button
             onClick={(e) => setImg("css")}
@@ -46,13 +46,15 @@ const Portfolio = () => {
         </div>
         <div className="row mb-4">
           <div className="m-auto nes-pointer col-md-4">
-            {img == "react" ? (
+            {img == "movie" ? (
               <a href="https://trippyy28.github.io/Movie-Search/">
                 <img src={Safe} className="img-responsive" alt="" />
               </a>
             ) : null}
-            {img == "js" ? (
-              <img src={Game} className="img-responsive" alt="" />
+            {img == "dj" ? (
+              <a href="https://trippyy28.github.io/Dj-s/">
+                <img src={Game} className="img-responsive" alt="" />
+              </a>
             ) : null}
             {img == "css" ? (
               <img src={Circus} className="img-responsive" alt="" />
