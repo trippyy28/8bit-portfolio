@@ -12,7 +12,7 @@ const Portfolio = () => {
     <div className="container p-3 d-flex flex-column h-150 mx-auto">
       <div className="container nes-container mb-4">
         <div className="col-md-12">
-          <h1>Gallery</h1>
+          <h1 className="d-flex justify-content-center">Gallery</h1>
         </div>
         <div className="col-md-12 mb-4">
           <button
@@ -30,11 +30,11 @@ const Portfolio = () => {
             Dj-Filter
           </button>
           <button
-            onClick={(e) => setImg("css")}
+            onClick={(e) => setImg("ts")}
             type="button"
             className="nes-btn is-error"
           >
-            Css
+            TrippySamples
           </button>
           <button
             onClick={(e) => setImg("all")}
@@ -49,22 +49,37 @@ const Portfolio = () => {
             {img == "movie" ? (
               <a href="https://trippyy28.github.io/Movie-Search/">
                 <img src={Safe} className="img-responsive" alt="" />
+                <p>Small app for searching movie using React Hooks and Api</p>
               </a>
             ) : null}
             {img == "dj" ? (
-              <a href="https://trippyy28.github.io/Dj-s/">
-                <img src={Game} className="img-responsive" alt="" />
+              <a href="https://trippyy28.github.io/ArtistScFinder/">
+                <img src={Circus} className="img-responsive" alt="" />
+                <p>Nice Small React App for searching your favoirte dj!</p>
               </a>
             ) : null}
-            {img == "css" ? (
-              <img src={Circus} className="img-responsive" alt="" />
+            {img == "ts" ? (
+              <a href="https://trippyy28.github.io/trippyysamplesdemo/">
+                <img src={Game} className="img-responsive" alt="" />
+                <p>
+                  My Personal Sample Pack E-commerce website (Still in
+                  progress!)
+                </p>
+              </a>
             ) : null}
             {img == "all" ? (
               <div>
-                <img src={Circus} className="img-responsive" alt="" />
-                <img src={Game} className="img-responsive" alt="" />
+                <a href="https://trippyy28.github.io/ArtistScFinder/">
+                  <img src={Circus} className="img-responsive" alt="" />
+                  <p>Dj Filter</p>
+                </a>
+                <a href="https://trippyy28.github.io/trippyysamplesdemo/">
+                  <img src={Game} className="img-responsive" alt="" />
+                  <p>Trippy Samples</p>
+                </a>
                 <a href="https://trippyy28.github.io/Movie-Search/">
                   <img src={Safe} className="img-responsive" alt="" />
+                  <p>Movie-Search</p>
                 </a>
               </div>
             ) : null}
