@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/8bit-portfolio/static/css/main.5c2fe850.chunk.css",
-    "main.js": "/8bit-portfolio/static/js/main.e7c8cff8.chunk.js",
-    "main.js.map": "/8bit-portfolio/static/js/main.e7c8cff8.chunk.js.map",
+    "main.css": "/8bit-portfolio/static/css/main.9b36c7cc.chunk.css",
+    "main.js": "/8bit-portfolio/static/js/main.9f31f52d.chunk.js",
+    "main.js.map": "/8bit-portfolio/static/js/main.9f31f52d.chunk.js.map",
     "runtime-main.js": "/8bit-portfolio/static/js/runtime-main.8179d356.js",
     "runtime-main.js.map": "/8bit-portfolio/static/js/runtime-main.8179d356.js.map",
     "static/css/2.fb514539.chunk.css": "/8bit-portfolio/static/css/2.fb514539.chunk.css",
-    "static/js/2.5a48e048.chunk.js": "/8bit-portfolio/static/js/2.5a48e048.chunk.js",
-    "static/js/2.5a48e048.chunk.js.map": "/8bit-portfolio/static/js/2.5a48e048.chunk.js.map",
+    "static/js/2.e913e86e.chunk.js": "/8bit-portfolio/static/js/2.e913e86e.chunk.js",
+    "static/js/2.e913e86e.chunk.js.map": "/8bit-portfolio/static/js/2.e913e86e.chunk.js.map",
     "static/js/3.8e97de54.chunk.js": "/8bit-portfolio/static/js/3.8e97de54.chunk.js",
     "static/js/3.8e97de54.chunk.js.map": "/8bit-portfolio/static/js/3.8e97de54.chunk.js.map",
     "index.html": "/8bit-portfolio/index.html",
     "static/css/2.fb514539.chunk.css.map": "/8bit-portfolio/static/css/2.fb514539.chunk.css.map",
-    "static/css/main.5c2fe850.chunk.css.map": "/8bit-portfolio/static/css/main.5c2fe850.chunk.css.map",
-    "static/js/2.5a48e048.chunk.js.LICENSE.txt": "/8bit-portfolio/static/js/2.5a48e048.chunk.js.LICENSE.txt",
+    "static/css/main.9b36c7cc.chunk.css.map": "/8bit-portfolio/static/css/main.9b36c7cc.chunk.css.map",
+    "static/js/2.e913e86e.chunk.js.LICENSE.txt": "/8bit-portfolio/static/js/2.e913e86e.chunk.js.LICENSE.txt",
     "static/media/cabin.44173302.png": "/8bit-portfolio/static/media/cabin.44173302.png",
     "static/media/cake.65544730.png": "/8bit-portfolio/static/media/cake.65544730.png",
     "static/media/circus.494a4a91.png": "/8bit-portfolio/static/media/circus.494a4a91.png",
@@ -25,8 +25,8 @@
   "entrypoints": [
     "static/js/runtime-main.8179d356.js",
     "static/css/2.fb514539.chunk.css",
-    "static/js/2.5a48e048.chunk.js",
-    "static/css/main.5c2fe850.chunk.css",
-    "static/js/main.e7c8cff8.chunk.js"
+    "static/js/2.e913e86e.chunk.js",
+    "static/css/main.9b36c7cc.chunk.css",
+    "static/js/main.9f31f52d.chunk.js"
   ]
 }
