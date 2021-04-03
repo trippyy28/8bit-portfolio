@@ -6,9 +6,7 @@ const Footer = () => {
       <footer className="mt-auto">
         <p>
           made by <i className="nes-icon is-small heart"> </i>
-          <a target="_blank" href="https://www.google.com/">
-            <h4> Yaniv Hershkowitz</h4>
-          </a>
+          <h4> Yaniv Hershkowitz</h4>
         </p>
       </footer>
     </div>

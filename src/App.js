@@ -7,9 +7,16 @@ import Header from "./components/Header";
 import { Contact } from "./pages/contact/Contact";
 import { Route, Switch } from "react-router-dom";
 import Footer from "./components/Footer";
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 function App() {
   const [displayVideo, setDisplayVideo] = useState(true);
+  const [progressValue, setProgressValue] = useState(10);
+
+  useEffect(() => {
+    const timer = setTimeout(setProgressValue(progressValue + 0.01));
+    return () => clearTimeout(timer);
+  });
+
   var src = `https://youtube.com/embed/WTuC8vg3m_w?start=0&autoplay=0&modestbranding=1&autohide=1&showinfo=0&controls=0&mute-1`;
   return displayVideo ? (
     <div id="preloader">
@@ -20,7 +27,7 @@ function App() {
         <div className="col-md-12 mb-3">
           <progress
             class="nes-progress is-pattern"
-            value="50"
+            value={progressValue}
             max="100"
           ></progress>
         </div>
