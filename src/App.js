@@ -11,11 +11,10 @@ import React, { useState, useEffect } from "react";
 function App() {
   const [displayVideo, setDisplayVideo] = useState(true);
   const [progressValue, setProgressValue] = useState(10);
-
   useEffect(() => {
-    const timer = setTimeout(setProgressValue(progressValue + 0.01));
-    return () => clearTimeout(timer);
-  });
+    setInterval(() => setProgressValue((prev) => prev + 0.5), 100);
+    return () => clearInterval();
+  }, []);
 
   var src = `https://youtube.com/embed/WTuC8vg3m_w?start=0&autoplay=0&modestbranding=1&autohide=1&showinfo=0&controls=0&mute-1`;
   return displayVideo ? (

@@ -104,7 +104,7 @@ export const Cv = () => {
               <div class="col-md-4">2016-2019</div>
             </section>
             <section class="nes-container with-title mb-4">
-              <p class="title">Additional Trainig</p>
+              <p class="title">Additional Training</p>
               <div class="row">
                 <div class="col-md-4">Music Making</div>
                 <div class="col-md-8">

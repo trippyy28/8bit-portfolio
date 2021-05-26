@@ -23,11 +23,11 @@ const Portfolio = () => {
             Movie-Search
           </button>
           <button
-            onClick={(e) => setImg("dj")}
+            onClick={(e) => setImg("face")}
             type="button"
             className="nes-btn is-warning"
           >
-            Dj-Filter
+            Face-Detect
           </button>
           <button
             onClick={(e) => setImg("ts")}
@@ -52,10 +52,10 @@ const Portfolio = () => {
                 <p>Small app for searching movie using React Hooks and Api</p>
               </a>
             ) : null}
-            {img == "dj" ? (
-              <a href="https://trippyy28.github.io/ArtistScFinder/">
+            {img === "face" ? (
+              <a href="https://trippyy28.github.io/face-detection/">
                 <img src={Circus} className="img-responsive" alt="" />
-                <p>Nice Small React App for searching your favoirte dj!</p>
+                <p>Nice Small React App for Face Detection!</p>
               </a>
             ) : null}
             {img == "ts" ? (
@@ -69,9 +69,9 @@ const Portfolio = () => {
             ) : null}
             {img == "all" ? (
               <div>
-                <a href="https://trippyy28.github.io/ArtistScFinder/">
+                <a href="https://trippyy28.github.io/face-detection/">
                   <img src={Circus} className="img-responsive" alt="" />
-                  <p>Dj Filter</p>
+                  <p>Face Detection</p>
                 </a>
                 <a href="https://trippyy28.github.io/trippyysamplesdemo/">
                   <img src={Game} className="img-responsive" alt="" />
