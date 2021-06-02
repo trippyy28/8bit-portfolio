@@ -91,7 +91,9 @@ const Container = () => {
                 <div className="col-md-12">
                   <button
                     type="submit"
-                    className="nes-btn"
+                    className={`nes-btn is-success ${
+                      disabledValues && "nes-btn is-error"
+                    }`}
                     disabled={disabledValues}
                   >
                     Submit
