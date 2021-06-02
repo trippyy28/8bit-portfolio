@@ -69,3 +69,7 @@ body {
   align-items: center;
   overflow: visible;
 }
+
+.descr {
+  font-size: 11px;
+}

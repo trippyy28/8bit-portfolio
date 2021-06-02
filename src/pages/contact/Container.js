@@ -2,9 +2,12 @@ import React, { useState } from "react";
 import emailjs from "emailjs-com";
 
 const Container = () => {
+  const [email, setEmail] = useState("");
+  const [name, setName] = useState("");
+  const [message, setMessage] = useState("");
+
   function sendEmail(e) {
     e.preventDefault();
-
     emailjs
       .sendForm(
         "service_ku8xy6k",
@@ -21,6 +24,8 @@ const Container = () => {
         }
       );
   }
+  const disabledValues = email === "" || name === "" || message === "";
+
   return (
     <div>
       <div className="container nes-container with-title mb-4">
@@ -40,6 +45,8 @@ const Container = () => {
                 <div className="offset-md-2 col-md-8">
                   <input
                     type="text"
+                    value={name}
+                    onChange={(e) => setName(e.target.value)}
                     id="name"
                     name="name"
                     placeholder="your name"
@@ -54,6 +61,8 @@ const Container = () => {
                 <div className="offset-md-2 col-md-8">
                   <input
                     type="email"
+                    value={email}
+                    onChange={(e) => setEmail(e.target.value)}
                     id="email"
                     name="email"
                     placeholder="your email"
@@ -70,6 +79,8 @@ const Container = () => {
                     rows="5"
                     name="message"
                     type="message"
+                    value={message}
+                    onChange={(e) => setMessage(e.target.value)}
                     id="message"
                     placeholder="Please Enter your message!"
                     className="form-control nes-input"
@@ -78,7 +89,11 @@ const Container = () => {
               </div>
               <div className="form-group">
                 <div className="col-md-12">
-                  <button type="submit" className="nes-btn">
+                  <button
+                    type="submit"
+                    className="nes-btn"
+                    disabled={disabledValues}
+                  >
                     Submit
                   </button>
                 </div>
