@@ -5,6 +5,7 @@ const Container = () => {
   const [email, setEmail] = useState("");
   const [name, setName] = useState("");
   const [message, setMessage] = useState("");
+  const [error, setError] = useState("");
 
   function sendEmail(e) {
     e.preventDefault();
@@ -25,7 +26,14 @@ const Container = () => {
       );
   }
   const disabledValues = email === "" || name === "" || message === "";
-
+  function errorText() {
+    if (disabledValues) {
+      setError("please bla bla");
+    } else {
+      setError("hi");
+    }
+    return error;
+  }
   return (
     <div>
       <div className="container nes-container with-title mb-4">
@@ -98,6 +106,7 @@ const Container = () => {
                   >
                     Submit
                   </button>
+                  <h1>{errorText}</h1>
                 </div>
               </div>
             </form>

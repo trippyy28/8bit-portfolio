@@ -20,7 +20,7 @@ export const data = [
     title: "Face-Detect",
     img: "https://i.imgur.com/il6bO8Z.png?1",
     moreInfo: "Nice Small React App for Face Detection!",
-    link: "https://trippyy28.github.io/Movie-Search/",
+    link: "https://trippyy28.github.io/face-detection/",
   },
   {
     genre: "TrippySamples",
@@ -30,13 +30,13 @@ export const data = [
     moreInfo: "My Personal Sample Pack E-commerce website",
     link: "https://trippyy28.github.io/trippyysamplesdemo/",
   },
-  {
-    genre: "IG",
-    id: "3",
-    title: "IG",
-    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrLmoimaeTNNgguCJ1GlgodU7lIZIsIzWwgg&usqp=CAU",
-    moreInfo:
-      "IG Clone Made With React Hooks ,Context Api, Tailwind and Firebase",
-    link: "https://trippyy28.github.io/IG/",
-  },
+  // {
+  //   genre: "IG",
+  //   id: "3",
+  //   title: "IG",
+  //   img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrLmoimaeTNNgguCJ1GlgodU7lIZIsIzWwgg&usqp=CAU",
+  //   moreInfo:
+  //     "IG Clone Made With React Hooks ,Context Api, Tailwind and Firebase",
+  //   link: "https://trippyy28.github.io/IG/",
+  // },
 ];
