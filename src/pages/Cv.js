@@ -126,7 +126,7 @@ export const Cv = () => {
                 </div>
               </div>
             </section>
-            <h3 class="title">
+            {/* <h3 class="title">
               <i class="nes-icon star is-half"></i> Job Experience
             </h3>
             <section class="nes-container mb-4 is-dark">
@@ -136,7 +136,7 @@ export const Cv = () => {
                 <p>Super Front End Developer</p>
               </div>
               <div class="col-md-2">1900-2000</div>
-            </section>
+            </section> */}
           </div>
         </div>
       </div>

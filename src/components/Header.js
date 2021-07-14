@@ -9,16 +9,16 @@ const Header = () => {
         </h3>
         <nav className="nav nav-masthead justify-content-center">
           <Link className="nav-link active" to="/">
-            <a>home</a>
+            <a>Home</a>
           </Link>
-          <Link className="nav-link active  " to="/portfolio">
-            <a>portfolio</a>
+          <Link className="nav-link active" to="/portfolio">
+            <a>Portfolio</a>
           </Link>
           <Link className="nav-link active" to="/cv">
-            <a>cv</a>
+            <a>Cv</a>
           </Link>
           <Link className="nav-link active" to="/contact">
-            <a>contact</a>
+            <a>Contact</a>
           </Link>
         </nav>
       </header>
