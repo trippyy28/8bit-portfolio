@@ -30,13 +30,12 @@ export const data = [
     moreInfo: "My Personal Sample Pack E-commerce website",
     link: "https://trippyy28.github.io/trippyysamplesdemo/",
   },
-  // {
-  //   genre: "IG",
-  //   id: "3",
-  //   title: "IG",
-  //   img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrLmoimaeTNNgguCJ1GlgodU7lIZIsIzWwgg&usqp=CAU",
-  //   moreInfo:
-  //     "IG Clone Made With React Hooks ,Context Api, Tailwind and Firebase",
-  //   link: "https://trippyy28.github.io/IG/",
-  // },
+  {
+    genre: "Code-Pen",
+    id: "3",
+    title: "My Code Pen",
+    img: "https://i.imgur.com/N6UjGoT.gif",
+    moreInfo: "Check Out My Code Pen!",
+    link: "https://codepen.io/trippyy28",
+  },
 ];
